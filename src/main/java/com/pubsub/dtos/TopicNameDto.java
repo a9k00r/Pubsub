@@ -1,4 +1,4 @@
-package main.java.com.mercari.merpay.pubsub.dtos;
+package com.pubsub.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

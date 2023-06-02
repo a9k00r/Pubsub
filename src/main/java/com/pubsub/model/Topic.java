@@ -1,4 +1,4 @@
-package main.java.com.mercari.merpay.pubsub.model;
+package com.pubsub.model;
 
 import lombok.Getter;
 import lombok.NonNull;

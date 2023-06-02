@@ -1,4 +1,4 @@
-package test.java.com.mercari.merpay.pubsub;
+package com.pubsub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

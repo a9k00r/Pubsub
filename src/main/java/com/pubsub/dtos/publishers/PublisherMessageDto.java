@@ -1,4 +1,4 @@
-package main.java.com.mercari.merpay.pubsub.dtos.publishers;
+package com.pubsub.dtos.publishers;
 
 import lombok.*;
 

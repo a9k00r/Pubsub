@@ -1,11 +1,12 @@
-package main.java.com.mercari.merpay.pubsub.controller;
+package com.pubsub.controller;
 
-import com.mercari.merpay.pubsub.commons.BaseAPIResponse;
-import com.mercari.merpay.pubsub.constants.Endpoints;
-import com.mercari.merpay.pubsub.dtos.publishers.PublisherMessageDto;
-import com.mercari.merpay.pubsub.dtos.publishers.PublisherRegisterDto;
-import com.mercari.merpay.pubsub.dtos.subsribers.SubscribeDto;
-import com.mercari.merpay.pubsub.service.PubSubService;
+
+import com.pubsub.commons.BaseAPIResponse;
+import com.pubsub.constants.Endpoints;
+import com.pubsub.dtos.publishers.PublisherMessageDto;
+import com.pubsub.dtos.publishers.PublisherRegisterDto;
+import com.pubsub.dtos.subsribers.SubscribeDto;
+import com.pubsub.service.PubSubService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

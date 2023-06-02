@@ -1,6 +1,6 @@
-package main.java.com.mercari.merpay.pubsub.dtos.subsribers;
+package com.pubsub.dtos.subsribers;
 
-import com.mercari.merpay.pubsub.dtos.TopicNameDto;
+import com.pubsub.dtos.TopicNameDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

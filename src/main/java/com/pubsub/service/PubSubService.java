@@ -1,13 +1,13 @@
-package main.java.com.mercari.merpay.pubsub.service;
+package com.pubsub.service;
 
-import com.mercari.merpay.pubsub.commons.BaseAPIResponse;
-import com.mercari.merpay.pubsub.dtos.publishers.PublisherMessageDto;
-import com.mercari.merpay.pubsub.dtos.publishers.PublisherRegisterDto;
-import com.mercari.merpay.pubsub.dtos.subsribers.SubscribeDto;
-import com.mercari.merpay.pubsub.model.Message;
-import com.mercari.merpay.pubsub.model.Topic;
-import com.mercari.merpay.pubsub.model.TopicSubscriber;
-import com.mercari.merpay.pubsub.handlers.TopicHandler;
+import com.pubsub.commons.BaseAPIResponse;
+import com.pubsub.dtos.publishers.PublisherMessageDto;
+import com.pubsub.dtos.publishers.PublisherRegisterDto;
+import com.pubsub.dtos.subsribers.SubscribeDto;
+import com.pubsub.handlers.TopicHandler;
+import com.pubsub.model.Message;
+import com.pubsub.model.Topic;
+import com.pubsub.model.TopicSubscriber;
 import lombok.NonNull;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

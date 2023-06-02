@@ -1,13 +1,12 @@
-package main.java.com.mercari.merpay.pubsub.handlers;
+package com.pubsub.handlers;
 
-import com.mercari.merpay.pubsub.model.Message;
-import com.mercari.merpay.pubsub.model.Topic;
-import com.mercari.merpay.pubsub.model.TopicSubscriber;
+import com.pubsub.model.Message;
+import com.pubsub.model.Topic;
+import com.pubsub.model.TopicSubscriber;
 import lombok.Getter;
 import lombok.NonNull;
 
 import javax.validation.constraints.NotBlank;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;

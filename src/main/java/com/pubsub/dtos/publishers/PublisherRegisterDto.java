@@ -1,6 +1,6 @@
-package main.java.com.mercari.merpay.pubsub.dtos.publishers;
+package com.pubsub.dtos.publishers;
 
-import com.mercari.merpay.pubsub.dtos.TopicNameDto;
+import com.pubsub.dtos.TopicNameDto;
 import lombok.*;
 
 import javax.validation.constraints.NotBlank;

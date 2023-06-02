@@ -1,4 +1,4 @@
-package main.java.com.mercari.merpay.pubsub;
+package com.pubsub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

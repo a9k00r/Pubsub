@@ -1,4 +1,4 @@
-package main.java.com.mercari.merpay.pubsub.constants;
+package com.pubsub.constants;
 
 public class Endpoints {
     private Endpoints() {
