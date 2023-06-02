@@ -10,3 +10,12 @@
    3. publish message to topic
    4. get message from topic
    5. ack message from topic
+
+### Use case graph:
+
+<img src="./image/image1.png" width="700px">
+
+
+### Use case diagram:
+
+<img src="./image/image2.png" width="700px">
